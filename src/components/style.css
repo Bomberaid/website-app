@@ -1,0 +1,17 @@
+/* Darken navbar on hover */
+.navbar-custom .nav-link:hover {
+background-color: #0056b3; /* Darker blue */
+}
+
+.btn-custom {
+    background-color: #004d9d;
+    border-color: #004d9d;
+    color: white;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+
+/* Change button color on hover */
+.btn-custom:hover {
+    background-color: #0056b3;
+    color: white;
+  }
