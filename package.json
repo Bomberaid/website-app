@@ -1,6 +1,5 @@
 {
   "name": "website-app",
-  "homepage": "https://bomberaid.github.io/website-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
