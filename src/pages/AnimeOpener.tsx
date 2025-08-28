@@ -9,9 +9,6 @@ export function AnimeOpener() {
     <section>
             <Container fluid className="text-center position-absolute top-50 start-50 translate-middle">
               <Row>
-                <h2>What is that anime?</h2>
-              </Row>
-              <Row>
                 <h1>
                   <AudioRecorder />
                 </h1>
