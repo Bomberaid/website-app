@@ -43,7 +43,7 @@ const AudioRecorder: React.FC = () => {
           
           if (found == false) {
             axios
-            .post("https://bomberaid.pythonanywhere.com/recognize", formData, { headers }) //.post("http://127.0.0.1:5000/recognize", formData, { headers })
+            .post("http://bomberaid.pythonanywhere.com/recognize", formData, { headers }) //.post("http://127.0.0.1:5000/recognize", formData, { headers })
             .then((res) => {
               if (res.status == 200) {
                 setAnimeFound(res.data[0]);
