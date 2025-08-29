@@ -6,11 +6,14 @@ const NavBar = () => {
 
     return (
         <>
-            <nav className="navbar navbar-expand-xl bg-primary navbar-custom" data-bs-theme="dark">
+            <nav className="navbar navbar-expand-md bg-primary navbar-custom" data-bs-theme="dark">
                 <div className="container-fluid">
                     <a className="navbar-brand ps-3" href="/">
                         <img src="/Profile Picture (Vector).svg" width="30" height="30" />
                     </a>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto position-absolute top-50 start-50 translate-middle">
                             <li className="nav-item px-2">
