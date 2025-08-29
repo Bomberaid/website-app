@@ -9,7 +9,7 @@ const NavBar = () => {
             <nav className="navbar navbar-expand-xl bg-primary navbar-custom" data-bs-theme="dark">
                 <div className="container-fluid">
                     <a className="navbar-brand ps-3" href="/">
-                        <img src="../../public/Profile Picture (Vector).svg" width="30" height="30" />
+                        <img src="/Profile Picture (Vector).svg" width="30" height="30" />
                     </a>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto position-absolute top-50 start-50 translate-middle">
