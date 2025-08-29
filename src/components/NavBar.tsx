@@ -15,7 +15,7 @@ const NavBar = () => {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav mx-auto position-absolute top-50 start-50 translate-middle">
+                        <ul className="navbar-nav mx-auto">
                             <li className="nav-item px-2">
                                 <a className="nav-link active" aria-current="page" href="/">Updates</a>
                             </li>
